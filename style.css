@@ -1,11 +1,77 @@
-body {font-family: Serif; background-color: #272829; color: #D8D9DA; padding: 6; text-align: center;}
-h1, h2, h3 {font-family: sans-serif; color: #D8D9DA;}
-li {display: inline;
-ul {padding: 0;}
-a {text-decoration: none; color: #D5CEA3; font-size: 18px; font-weight: bold; transition: 0.3s ease;}
-a:hover {color: #090580;}
-#profile-pic {width: 200px; height: 200px; border-radius: 50%;}
-.card {background-color: white; padding: 15px; width: 0.px; margin: 25px auto; border-radius: 1px solid #EAEAEA;}
+body {
+  background: #fffdf7;
+  color: #002331;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  font-weight: lighter;
+  line-height: 2;
+}
+h1 {
+  color:#9B2226;
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 10px
+}
+h2 {
+  color: #005F73;
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 5px
+}
+
+a {
+  color: #BB3E03;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.card {
+  background-color: white;
+  text-align: center;
+  margin: 16px 0px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  border-radius: 8px;
+}
+
+#headshot {
+  height: 200px;
+  border-radius: 50%;
+}
+
+.btn {
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  color: #BB3E03;
+  padding: 0 .25rem;
+  margin: 0 -.25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+
+.btn:hover {
+  color: #fff;
+  box-shadow: inset 200px 0 0 0 #BB3E03;;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 20px;
+}
+
+.list-inline > li {
+
+  display: inline-block;
+  margin-right: 20px; /* add spacing between items */
+}
+
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
@@ -21,7 +87,6 @@ a:hover {color: #090580;}
 }
 
 @media (max-width: 540px) {
-  /* For a screen < 540px, this CSS will be read */
   .container {
     width: 300px;
   }
