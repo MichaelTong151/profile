@@ -6,11 +6,13 @@ body {
   font-weight: lighter;
   line-height: 2;
 }
+
 h1 {
   color: #82010b;
   font-family: 'Roboto', sans-serif;
   letter-spacing: 10px
 }
+
 h2 {
   color: #032d63;
   font-family: 'Roboto', sans-serif;
